@@ -1,0 +1,215 @@
+﻿<xml>
+    <mazepr>
+      <qw >
+            
+            <pregunta>¿Cuántas patas tiene un insecto?</pregunta>
+            <a>4</a>
+            <b>8</b>
+            <c>6</c>
+            <d>depende del insecto</d>
+            <correcta>c</correcta>
+        </qw>
+        <qw >
+            
+            <pregunta>¿Cuál de estos animales es un mamífero?</pregunta>
+            <a>tiburón</a>
+            <b>delfín</b>
+            <c>manta</c>
+            <d>caballito de mar</d>
+            <correcta>b</correcta>
+        </qw>
+        <qw >
+            
+            <pregunta>¿Qué parte de las matemáticas se encarga del estudio de los numeros y operaciones con estos?</pregunta>
+            <a>aritmética</a>
+            <b>trigonometría</b>
+            <c>álegra</c>
+            <d>geometría</d>
+            <correcta>a</correcta>
+        </qw>
+        <qw >
+            
+            <pregunta>¿Cuál fue la primera raza humana?</pregunta>
+            <a>homo-sapiens-sapiens</a>
+            <b>homo-sapiens</b>
+            <c>namlu'u</c>
+            <d>homo-erectus</d>
+            <correcta>c</correcta>
+        </qw>
+        <qw >
+            
+            <pregunta>Cuál fue el primer videojuego de la historia?</pregunta>
+            <a>Mario-Bros</a>
+            <b>Sonic</b>
+            <c>Pong</c>
+            <d>KHY</d>
+            <correcta>c</correcta>
+        </qw>
+                <qw >
+            
+            <pregunta>¿Qué año pertenece al año del dragón en China?</pregunta>
+            <a>1999</a>
+            <b>2000</b>
+            <c>2001</c>
+            <d>2002</d>
+            <correcta>b</correcta>
+        </qw>
+         <qw >
+            
+            <pregunta>¿En qué año se celebró la primera copa de europa de fúbol?</pregunta>
+            <a>1955/1956</a>
+            <b>1945/1946</b>
+            <c>1845/1846</c>
+            <d>1855/1856</d>
+            <correcta>a</correcta>
+        </qw>
+        <qw>
+            
+            <pregunta>¿Cuál fue la primera consola de la historia?</pregunta>
+            <a>Magnavox Odyssey</a>
+            <b>NES</b>
+            <c>Atari Pong</c>
+            <d>TRC-1</d>
+            <correcta>a</correcta>
+        </qw>
+        <qw >
+            
+            <pregunta>¿Cuándo fue la fecha de la primera guerra mundial?</pregunta>
+            <a>1918</a>
+            <b>1917</b>
+            <c>1915</c>
+            <d>1914</d>
+            <correcta>d</correcta>
+        </qw>
+        <qw>
+            
+            <pregunta>¿Cuántos Mister Olympia tiene Arnold Schwarzenegger?</pregunta>
+            <a>7</a>
+            <b>16</b>
+            <c>5</c>
+            <d>2</d>
+            <correcta>a</correcta>
+        </qw>
+<qw>
+            
+            <pregunta>¿Cómo se llamaba el perro de Asterix y Obelix?</pregunta>
+            <a>Milú</a>
+            <b>Niebla</b>
+            <c>Idefix</c>
+            <d>Nevado</d>
+            <correcta>c</correcta>
+        </qw>
+        
+        <qw>
+            
+            <pregunta>¿Quién fue la primera ganadora de operación triunfo?</pregunta>
+            <a>Chenoa</a>
+            <b>Rosa López</b>
+            <c>David Bisbal</c>
+            <d>Bustamante</d>
+            <correcta>b</correcta>
+        </qw>
+        
+        <qw>
+            
+            <pregunta>¿En qué año se inaguró el metro de Madrid?</pregunta>
+            <a>1919</a>
+            <b>1818</b>
+            <c>1920</c>
+            <d>1819</d>
+            <correcta>a</correcta>
+        </qw>
+        <qw>
+        <pregunta>¿En qué año se fundó ferrari?</pregunta>
+            <a>1909</a>
+            <b>1931</b>
+            <c>1963</c>
+            <d>1939</d>
+            <correcta>d</correcta>
+        
+        </qw>
+        <qw>
+        <pregunta>¿Qué famoso compositor se quedo sordo?</pregunta>
+            <a>Beethoven</a>
+            <b>Mozart</b>
+            <c>Vivaldi</c>
+            <d>Chaikovski</d>
+            <correcta>a</correcta>
+        
+        </qw>
+    <qw>
+        <pregunta>¿Cuál de las siguientes marcas es estadounidense?</pregunta>
+            <a>Fortuna</a>
+            <b>Malboro</b>
+            <c>Ducados</c>
+            <d>Nobel</d>
+            <correcta>b</correcta>
+        
+        </qw>
+        <qw>
+        <pregunta>¿Cuál de las siguientes consolas fue la más vendida?</pregunta>
+            <a>Nintendo DS lite</a>
+            <b>PS2</b>
+            <c>Game boy advance</c>
+            <d>Wii</d>
+            <correcta>b</correcta>
+        
+        </qw>
+        <qw>
+        <pregunta>¿Cuál fue el primer presidente de España?</pregunta>
+            <a>Zapatero</a>
+            <b>Aznar</b>
+            <c>Adolfo Suarez</c>
+            <d>Rajoy</d>
+            <correcta>c</correcta>
+        
+        </qw>
+        <qw>
+        <pregunta>¿En qué se mide la intensidad de corriente?</pregunta>
+            <a>Amperios</a>
+            <b>Voltios</b>
+            <c>Grados</c>
+            <d>candelas</d>
+            <correcta>a</correcta>
+        
+        </qw>
+        <qw>
+        <pregunta>¿Cuántas champions tiene el Arsenal FC?</pregunta>
+            <a>0</a>
+            <b>1</b>
+            <c>3</c>
+            <d>4</d>
+            <correcta>a</correcta>
+        
+        </qw>
+         <qw>
+        <pregunta>¿Cuál es el animal más fuerte del mundo?</pregunta>
+            <a>Hormiga</a>
+            <b>Gorila</b>
+            <c>Tigre</c>
+            <d>Escarabajo Rinoceronte</d>
+            <correcta>d</correcta>
+        
+        </qw>
+         <qw>
+        <pregunta>¿Qué es la capoira?</pregunta>
+            <a>Una comida</a>
+            <b>Una provincia</b>
+            <c>Un baile</c>
+            <d>Un arte marcial</d>
+            <correcta>d</correcta>
+        
+        </qw>
+         <qw>
+        <pregunta>¿Cuál es el video mas visto en youtube?</pregunta>
+            <a>Manerasde molestar a tu vecino (Rubius)</a>
+            <b>Mejores record Guinnes</b>
+            <c>Buleria</c>
+            <d>Ganma Style</d>
+            <correcta>d</correcta>
+        
+        </qw>
+        
+    </mazepr>
+
+</xml>

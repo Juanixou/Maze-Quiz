@@ -1,0 +1,656 @@
+﻿<maze>
+		<scene id="000">
+		<asset>null</asset>
+			<back>null</back>
+			<front>null</front>
+			<left>008</left>
+			<right>0060</right>
+			<img>000BLR.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="001">
+		<asset>null</asset>
+			<back>0060</back>
+			<front>null</front>
+			<left>0044</left>
+			<right>0061</right>
+			<img>000BLR.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="002" />
+		<scene id="003">
+		<asset>caja</asset>
+			<back>0061</back>
+			<front>0047</front>
+			<left>0062</left>
+			<right>null</right>
+			<img>000BFL.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="004">
+		<asset>null</asset>
+			<back>0062</back>
+			<front>0038</front>
+			<left>0063</left>
+			<right>null</right>
+			<img>000BFL.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="005">
+		<asset>null</asset>
+			<back>0063</back>
+			<front>0036</front>
+			<left>0064</left>
+			<right>null</right>
+			<img>000BFL.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="006">
+		<asset>pala</asset>
+			<back>0064</back>
+			<front>null</front>
+			<left>0037</left>
+			<right>0065</right>
+			<img>000BLR.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="007">
+		<asset>pelota</asset>
+			<back>0064</back>
+			<front>0010</front>
+			<left>null</left>
+			<right>0050</right>
+			<img>000BFR.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="008">
+		<asset>null</asset>
+			<back>000</back>
+			<front>null</front>
+			<left>null</left>
+			<right>null</right>
+			<img>000B.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="009" />
+		<scene id="0010">
+		<asset>null</asset>
+			<back>007</back>
+			<front>null</front>
+			<left>null</left>
+			<right>null</right>
+			<img>000B.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0011">
+		<asset>null</asset>
+			<back>0050</back>
+			<front>null</front>
+			<left>0052</left>
+			<right>0054</right>
+			<img>001BLR.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0012">
+		<asset>farolillo</asset>
+			<back>0053</back>
+			<front>0067</front>
+			<left>null</left>
+			<right>0039</right>
+			<img>001BFR.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0013">
+		<asset>null</asset>
+			<back>0052</back>
+			<front>0066</front>
+			<left>0045</left>
+			<right>null</right>
+			<img>001BFL.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0014">
+		<asset>null</asset>
+			<back>0066</back>
+			<front>0048</front>
+			<left>null</left>
+			<right>0053</right>
+			<img>001BFR.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0015">
+		<asset>null</asset>
+			<back>0054</back>
+			<front>0016</front>
+			<left>0046</left>
+			<right>null</right>
+			<img>001BFL.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0016">
+		<asset>null</asset>
+			<back>0015</back>
+			<front>0068</front>
+			<left>null</left>
+			<right>0040</right>
+			<img>001BFR.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0017">
+		<asset>pelota2</asset>
+			<back>0067</back>
+			<front>null</front>
+			<left>0069</left>
+			<right>0019</right>
+			<img>001BLR.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0018" />
+		<scene id="0019">
+		<asset>helado</asset>
+			<back>0017</back>
+			<front>null</front>
+			<left>null</left>
+			<right>null</right>
+			<img>001B.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0020">
+		<asset>piedras</asset>
+			<back>0069</back>
+			<front>0051</front>
+			<left>0041</left>
+			<right>null</right>
+			<img>001BFL.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0021">
+		<asset>null</asset>
+			<back>0051</back>
+			<front>null</front>
+			<left>0056</left>
+			<right>0055</right>
+			<img>002BLR.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0022">
+		<asset>null</asset>
+			<back>0055</back>
+			<front>null</front>
+			<left>null</left>
+			<right>null</right>
+			<img>002B.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0023">
+		<asset>null</asset>
+			<back>0070</back>
+			<front>0071</front>
+			<left>null</left>
+			<right>0024</right>
+			<img>002BFR.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0024">
+		<asset>null</asset>
+			<back>0023</back>
+			<front>null</front>
+			<left>null</left>
+			<right>null</right>
+			<img>002B.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0025">
+		<asset>pizza</asset>
+			<back>0056</back>
+			<front>null</front>
+			<left>0059</left>
+			<right>0026</right>
+			<img>002BLR.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0026">
+		<asset>gato</asset>
+			<back>0025</back>
+			<front>0070</front>
+			<left>0042</left>
+			<right>null</right>
+			<img>002BFL.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0027">
+		<asset>null</asset>
+			<back>0071</back>
+			<front>0072</front>
+			<left>0029</left>
+			<right>0057</right>
+			<img>002BFLR.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0028">
+		<asset>null</asset>
+			<back>0057</back>
+			<front>null</front>
+			<left>0030</left>
+			<right>0031</right>
+			<img>002BLR.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0029">
+		<asset>aranazo</asset>
+			<back>0027</back>
+			<front>null</front>
+			<left>null</left>
+			<right>null</right>
+			<img>002B.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0030">
+		<asset>null</asset>
+			<back>0028</back>
+			<front>null</front>
+			<left>null</left>
+			<right>null</right>
+			<img>002B.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0031">
+		<asset>monedas</asset>
+			<back>0028</back>
+			<front>null</front>
+			<left>null</left>
+			<right>null</right>
+			<img>002B.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0032">
+		<asset>null</asset>
+			<back>0072</back>
+			<front>null</front>
+			<left>0058</left>
+			<right>0034</right>
+			<img>002BLR.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0033" />
+		<scene id="0034">
+		<asset>null</asset>
+			<back>0032</back>
+			<front>null</front>
+			<left>null</left>
+			<right>null</right>
+			<img>002B.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0035">
+		<asset>null</asset>
+			<back>0058</back>
+			<front>null</front>
+			<left>null</left>
+			<right>null</right>
+			<img>002B.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0036">
+		<asset>arana</asset>
+			<back>005</back>
+			<front>null</front>
+			<left>null</left>
+			<right>null</right>
+			<img>000B.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0037">
+		<asset>pesas</asset>
+			<back>006</back>
+			<front>null</front>
+			<left>null</left>
+			<right>null</right>
+			<img>000B.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0038">
+		<asset>null</asset>
+			<back>004</back>
+			<front>null</front>
+			<left>null</left>
+			<right>null</right>
+			<img>000B.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0039">
+		<asset>null</asset>
+			<back>0012</back>
+			<front>null</front>
+			<left>null</left>
+			<right>null</right>
+			<img>001B.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0040">
+		<asset>null</asset>
+			<back>0016</back>
+			<front>null</front>
+			<left>null</left>
+			<right>null</right>
+			<img>001B.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0041">
+		<asset>null</asset>
+			<back>0020</back>
+			<front>null</front>
+			<left>null</left>
+			<right>null</right>
+			<img>001B.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0042">
+		<asset>null</asset>
+			<back>0026</back>
+			<front>null</front>
+			<left>null</left>
+			<right>null</right>
+			<img>002B.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0043">
+		<asset>null</asset>
+			<back>0026</back>
+			<front>null</front>
+			<left>null</left>
+			<right>null</right>
+			<img>002B.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0044">
+		<asset>null</asset>
+			<back>001</back>
+			<front>null</front>
+			<left>null</left>
+			<right>null</right>
+			<img>000B.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0045">
+		<asset>null</asset>
+			<back>0013</back>
+			<front>null</front>
+			<left>null</left>
+			<right>null</right>
+			<img>001B.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0046">
+		<asset>null</asset>
+			<back>0015</back>
+			<front>null</front>
+			<left>null</left>
+			<right>null</right>
+			<img>001B.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0047">
+		<asset>pelota</asset>
+			<back>003</back>
+			<front>null</front>
+			<left>null</left>
+			<right>null</right>
+			<img>000B.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0048">
+		<asset>null</asset>
+			<back>0014</back>
+			<front>null</front>
+			<left>null</left>
+			<right>null</right>
+			<img>001B.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0049">
+		<asset>null</asset>
+			<back>0039</back>
+			<front>null</front>
+			<left>null</left>
+			<right>0012</right>
+			<img>001B.png</img>
+			<puzzle>null</puzzle>
+		</scene>
+		<scene id="0050">
+		<asset>null</asset>
+			<back>007</back>
+			<front>0011</front>
+			<left>null</left>
+			<right>null</right>
+			<img>000close.png</img>
+			<imgo>000open.png</imgo>
+			<puzzle>000</puzzle>
+		</scene>
+		<scene id="0051">
+		<asset>null</asset>
+			<back>0020</back>
+			<front>0021</front>
+			<left>null</left>
+			<right>null</right>
+			<img>001close.png</img>
+			<imgo>001open.png</imgo>
+			<puzzle>004</puzzle>
+		</scene>
+		<scene id="0052">
+		<asset>null</asset>
+			<back>0011</back>
+			<front>0013</front>
+			<left>null</left>
+			<right>null</right>
+			<img>001close2.png</img>
+			<imgo>001open2.png</imgo>
+			<puzzle>006</puzzle>
+		</scene>
+		<scene id="0053">
+		<asset>null</asset>
+			<back>0014</back>
+			<front>0012</front>
+			<left>null</left>
+			<right>null</right>
+			<img>001close2.png</img>
+			<imgo>001open2.png</imgo>
+			<puzzle>007</puzzle>
+		</scene>
+		<scene id="0054">
+		<asset>null</asset>
+			<back>0011</back>
+			<front>0015</front>
+			<left>null</left>
+			<right>null</right>
+			<img>001close2.png</img>
+			<imgo>001open2.png</imgo>
+			<puzzle>008</puzzle>
+		</scene>
+		<scene id="0055">
+		<asset>null</asset>
+			<back>0021</back>
+			<front>0022</front>
+			<left>null</left>
+			<right>null</right>
+			<img>002close2.png</img>
+			<imgo>002open2.png</imgo>
+			<puzzle>009</puzzle>
+		</scene>
+		<scene id="0056">
+		<asset>null</asset>
+			<back>0021</back>
+			<front>0025</front>
+			<left>null</left>
+			<right>null</right>
+			<img>002close2.png</img>
+			<imgo>002open2.png</imgo>
+			<puzzle>0010</puzzle>
+		</scene>
+		<scene id="0057">
+		<asset>null</asset>
+			<back>0027</back>
+			<front>0028</front>
+			<left>null</left>
+			<right>null</right>
+			<img>002close2.png</img>
+			<imgo>002open2.png</imgo>
+			<puzzle>0011</puzzle>
+		</scene>
+		<scene id="0058">
+		<asset>null</asset>
+			<back>0032</back>
+			<front>null</front>
+			<left>null</left>
+			<right>null</right>
+			<img>002close.png</img>
+			<imgo>002open.png</imgo>
+			<puzzle>005</puzzle>
+		</scene>
+		<scene id="0059">
+		<asset>null</asset>
+			<back>0025</back>
+			<front>null</front>
+			<left>null</left>
+			<right>null</right>
+			<img>002B.png</img>
+			<imgo>null</imgo>
+			<puzzle>null</puzzle>
+		</scene>
+	
+
+             <scene id='0060'>
+             <asset>null</asset>
+            <asset></asset>
+            <back>000</back>
+            <front>null</front>
+            <left>001</left>
+            <right>null</right>
+            <img>000LL.png</img>
+            <imgo>null</imgo>
+            <puzzle>null</puzzle>
+            </scene>
+             <scene id='0061'>
+             <asset>null</asset>
+            <asset></asset>
+            <back>001</back>
+            <front>003</front>
+            <left>null</left>
+            <right>null</right>
+            <img>000FF.png</img>
+            <imgo>null</imgo>
+            <puzzle>null</puzzle>
+            </scene>
+              <scene id='0062'>
+              <asset>null</asset>
+            <asset></asset>
+            <back>003</back>
+            <front>null</front>
+            <left>null</left>
+            <right>004</right>
+            <img>000RR.png</img>
+            <imgo>null</imgo>
+            <puzzle>null</puzzle>
+            </scene>
+             <scene id='0063'>
+             <asset>null</asset>
+            <asset></asset>
+            <back>004</back>
+            <front>null</front>
+            <left>null</left>
+            <right>005</right>
+            <img>000RR.png</img>
+            <imgo>null</imgo>
+            <puzzle>null</puzzle>
+            </scene>
+             <scene id='0064'>
+            <asset>null</asset>
+            <back>005</back>
+            <front>null</front>
+            <left>006</left>
+            <right>null</right>
+            <img>000LL.png</img>
+            <imgo>null</imgo>
+            <puzzle>null</puzzle>
+            </scene>
+             <scene id='0065'>
+            <asset>null</asset>
+            <back>006</back>
+            <front>007</front>
+            <left>null</left>
+            <right>null</right>
+            <img>000FF.png</img>
+            <imgo>null</imgo>
+            <puzzle>null</puzzle>
+            </scene>
+            <scene id='0066'>
+            <asset>null</asset>
+            <back>0013</back>
+            <front>null</front>
+            <left>null</left>
+            <right>0014</right>
+            <img>001RR.png</img>
+            <imgo>null</imgo>
+            <puzzle>null</puzzle>
+            </scene>
+            <scene id='0067'>
+            <asset>null</asset>
+            <back>0012</back>
+            <front>null</front>
+            <left>0017</left>
+            <right>null</right>
+            <img>001LL.png</img>
+            <imgo>null</imgo>
+            <puzzle>null</puzzle>
+            </scene>
+            <scene id='0068'>
+            <asset>null</asset>
+            <back>0016</back>
+            <front>null</front>
+            <left>0017</left>
+            <right>null</right>
+            <img>001LL.png</img>
+            <imgo>null</imgo>
+            <puzzle>null</puzzle>
+            </scene>
+             <scene id='0069'>
+            <asset>null</asset>
+            <back>0017</back>
+            <front>0020</front>
+            <left>null</left>
+            <right>null</right>
+            <img>001FF.png</img>
+            <imgo>null</imgo>
+            <puzzle>null</puzzle>
+            </scene>
+             <scene id='0070'>
+            <asset>null</asset>
+            <back>0026</back>
+            <front>null</front>
+            <left>null</left>
+            <right>0023</right>
+            <img>002RR.png</img>
+            <imgo>null</imgo>
+            <puzzle>null</puzzle>
+            </scene>
+             <scene id='0071'>
+            <asset>null</asset>
+            <back>0023</back>
+            <front>null</front>
+            <left>null</left>
+            <right>0027</right>
+            <img>002RR.png</img>
+            <imgo>null</imgo>
+            <puzzle>null</puzzle>
+            </scene>
+            <scene id='0072'>
+            <asset>null</asset>
+            <back>0027</back>
+            <front>0032</front>
+            <left>null</left>
+            <right>null</right>
+            <img>002FF.png</img>
+            <imgo>null</imgo>
+            <puzzle>null</puzzle>
+            </scene>
+    </maze>

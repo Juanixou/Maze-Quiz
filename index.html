@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+        
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Oswald" rel="stylesheet">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>MAZE QUIZ</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        
+    <!--Archivos de sonido -->
+	<audio id="sound1" src="assets/sound/Tema1.ogg"></audio>
+    <audio id="sound2" src="assets/sound/Tema2.ogg"></audio>
+        
+    <meta charset="utf-8">
+    <meta 
+     name='viewport' 
+     content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' 
+    />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript"  src="app.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="assets/Nav.png">
+
+    <script>
+        window.onload=function(){
+            var aux = navigator.platform;
+            if(aux != "Win32")
+                alert("Recomendamos colocar el movil en horizontal!");
+        }
+    </script>
+
+
+	</head>
+	<body>
+		<!--- MENU PRINCIPAL -->
+
+        <div id = "menu">
+            <div class = "title" id="title">
+                <img src="assets/Titulo.png"  id="titulo" >
+            </div>
+            <br>
+            <div id="btnPrn">
+    			<button class = "btnMenu botonJugar" id = "Bjugar"  ></button><br>
+                <button class = "btnMenu botonInstrucciones" id = "Binstrucciones" ></button><br>
+                <button class = "btnMenu botonContactar" id = "Bcontactar" ></button><br>
+                <button class = "btnMenu botonHighscores" id = "Bhighscores" ></button>
+			</div>
+        </div>
+            
+
+        <!-- Barra tiempo -->
+        
+            <img src="assets/red-bar.png"           class = "time"        id = "clock">
+        
+		<!--- MENU JUGAR -->
+
+		<div id="menuJugar" class="page" >
+            
+			<br>
+            <button class = "btnlvl boton1" id = "Blvl1" ></button>
+			<button class = "btnlvl boton2" id = "Blvl2"></button>
+            <button class = "btnlvl boton3" id = "Blvl3"></button>
+				
+		</div>
+        <!--- MENU NIVEL -->
+        <div id="menulvl" class="page" >
+            <img src="assets/negro.png" class="Fade" id="fade">
+            <div id="fader"  >
+            <img src="assets/800x600.png"           class = "fondo"        id = "background">
+            <img    class = "asset"        id = "asset">
+            <div id="Controls">
+                <img src="assets/lvl1/arriba.png"       class = "boton_ctrl"   id = "bFront">
+                <img src="assets/lvl1/izquierda.png"           class = "boton_ctrl"   id = "bLeft">
+                <img src="assets/lvl1/derecha.png"           class = "boton_ctrl"   id = "bRight">
+                <img src="assets/lvl1/abajo.png"        class = "boton_ctrl"   id = "bBack">    
+            </div>
+            </div>
+        </div>
+        
+        <!--- MENU PREPREGUNTA-->
+        
+        <img src="assets/lvl1/interrogacion.png" class = "puerta" id = "interrogacion">
+
+        <!--- MENU VICTORIA-->
+        <div id="menuV" class="page" >
+            <img src="assets/Victoria.png"          class = "victoria" id = "Victoria">
+            <div id="final">
+                <button class = "back" id = "backMenu" ></button>
+            </div>
+        </div>
+                <!--- Derrota-->
+        <div id="menuD" class="page" >
+            <img src="assets/GameOver.png"          class = "victoria" id = "Derrota">
+            <button class = "victoria boton" id = "backMenuD" ></button>
+
+        </div>
+		 <!--- MENU PREGUNTA-->
+
+		<div id="menuLocked">
+            <img src="assets/800x600.png" class = "fondo"        id = "background2">
+            <img src="assets/lvl1/Puzzle.png"   class = "fondo_Quest"   id = "puzzle">
+            <div id="pregunta"></div>
+                <img src="assets/lvl1/A.png"   class = "boton_Quest"   id = "bA">
+                <img src="assets/lvl1/B.png"   class = "boton_Quest"   id = "bB">
+                <img src="assets/lvl1/C.png"   class = "boton_Quest"   id = "bC">
+                <img src="assets/lvl1/D.png"   class = "boton_Quest"   id = "bD">
+            <img src="assets/+10.png"   class = "boton_Quest"   id = "10">
+            <table id="respuestas">
+                <tr id="resA"></tr>
+                <tr id="resB"></tr>
+                <tr id="resC"></tr>
+                <tr id="resD"></tr>
+            </table>
+				
+		</div>
+        
+        <!--- MENU MINIJUEGO LLAVE -->
+		<div id="menuMinijuego" class="page" >
+                <img src="assets/llave.png"     class = "boton_minijuego"     id ="b0">
+                <img src="assets/bloque.png"    class = "boton_minijuego"    id = "b1">
+                <img src="assets/bloque.png"    class = "boton_minijuego"    id = "b2">
+                <img src="assets/bloque.png"    class = "boton_minijuego"    id = "b3"><br>
+                <img src="assets/bloque.png"    class = "boton_minijuego"    id = "b4">
+                <img src="assets/bloque.png"    class = "boton_minijuego"    id = "b5">
+                <img src="assets/bloque.png"    class = "boton_minijuego"    id = "b6">
+                <img src="assets/bloque.png"    class = "boton_minijuego"    id = "b7"><br>
+                <img src="assets/bloque.png"    class = "boton_minijuego"    id = "b8">
+                <img src="assets/bloque.png"    class = "boton_minijuego"    id = "b9">
+                <img src="assets/bloque.png"    class = "boton_minijuego"    id = "b10">
+                <img src="assets/bloque.png"    class = "boton_minijuego"    id = "b11"><br>
+                <img src="assets/bloque.png"    class = "boton_minijuego"    id = "b12">
+                <img src="assets/bloque.png"    class = "boton_minijuego"    id = "b13">
+                <img src="assets/bloque.png"    class = "boton_minijuego"    id = "b14">
+                <img src="assets/vacio.png"     class = "boton_minijuego"     id ="b15">
+        </div>
+        
+        <!--- MENU INSERT HIGHSCORE -->
+        <div id="menuInsertHighscore">
+            <img src="assets/lvl1/PreguntaGrande.png" id="casilla">
+            <textarea cols = "10" rows="1" id="insertHighscore"></textarea> 
+            <img  src="assets/ok.png" class= "bOk" id="ok">
+        </div> 
+        <!--- MENU HIGHSCORE -->
+
+        <div id="menuHighscore">
+
+            <div id="btnslvl">
+                <button id="highscore1" class="common highscore1"></button>
+                <button id="highscore2" class="common highscore2"></button>
+                <button id="highscore3" class="common highscore3"></button>
+            </div>
+
+            <img src="assets/Leaderboard.png" class="TablaLeaderBoard" id = "leaderboard">
+            <textarea readonly cols = 45 id="Highscore"></textarea> 
+
+            <div id="atras">
+                <button id="backHighscores" class="backHighscores"></button>
+            </div>
+
+        </div> 
+        <!--- MENU INSTRUCCIONES -->
+
+		<div id="menuInstrucciones" class="page" >
+            <img src="assets/instrucciones.png" id="instrucciones">
+            <button class = "BatrasIns" id = "BatrasIns" ></button>
+              
+        </div>
+        
+        
+        
+        <!--- MENU CONTACTAR -->
+
+        <div class="container marketing page" id="menuContactar"><br><br><br><br><br><br><br>
+
+        <div class="col-md-6 col-sm-6 col-xs-12 col-lg-6">            
+          <img class="img-thumbnail"src="assets/raw/Angel.jpeg" class="img-thumbnail1" width="304" height="236"> 
+          <h2>Ángel Bachiller García</h2>
+          <p>Correo: AngelBG96@gmail.com</p>
+          <p>GitHub: <a href="https://github.com/AngeelBG">AngeelBG</a></p> 
+        </div>
+
+        <div class="col-md-6 col-sm-6 col-xs-12 col-lg-6">            
+          <img class="img-thumbnail" src="assets/raw/Alvaro.jpeg" class="img-thumbnail1" width="304" height="236"> 
+          <h2>Álvaro Barroso Mato</h2>
+          <p>Correo: Alvarobm61@gmail.com</p>
+          <p>GitHub: <a href="https://github.com/alvaroBarrosoMato">alvaroBarrosoMato</a></p>
+        </div>
+
+        <div class="col-md-6 col-sm-6 col-xs-12 col-lg-6">          
+          <img class="img-thumbnail" src="assets/raw/Maguel.jpeg" class="img-thumbnail1" width="304" height="236"> 
+          <h2>Miguel Ángel Galaz Sánchez</h2>
+          <p>Correo: Miguel.galaz.sanchez@hotmail.com</p>
+          <p>GitHub: <a href="https://github.com/MiguelAngelGalazSanchez">MiguelAngelGalazSanchez</a></p> 
+        </div>
+
+        <div class="col-md-6 col-sm-6 col-xs-12 col-lg-6">           
+          <img class="img-thumbnail" src="assets/raw/Juanixou.jpeg" class="img-thumbnail1" width="304" height="236"> 
+          <h2>Juan Daniel Silva Mora</h2>
+          <p>Correo: juansilvamora@gmail.com</p>
+          <p>GitHub: <a href="https://github.com/Juanixou">Juanixou</a></p> 
+        </div>
+    
+                    <button class = "botonAtras" id = "BatrasCon" ></button>
+    </div>
+
+
+
+        <!--
+            <a href=" https://github.com/GrupoMAAJwebyredessociales/Maze-Puzzles"><img src="assets/github.jpg" width="128" height="128" /></a><br>
+            <a href=" https://www.instagram.com/miguel_gs_/"><img src="assets/instagram.png" width="128" height="128" "right"/></a><br>
+            <a href=" https://www.instagram.com/angeelbg/"><img src="assets/instagram.png" width="128" height="128" "right"/></a><br>
+            <a href=" https://www.instagram.com/juandsilvamora/"><img src="assets/instagram.png" width="128" height="128" "right"/></a><br>
+            <a href=" https://www.instagram.com/alvarobm61/"><img src="assets/instagram.png" width="128" height="128" "right" /></a><br>
+            <button class = "botonAtras" id = "BatrasCon" ></button>
+
+
+        </div>
+        -->
+
+
+
+	</body>
+</html>
+

@@ -1,0 +1,909 @@
+body { 
+  background-image:url(assets/Background.png); 
+  /*background-repeat:no-repeat;*/
+  background-attachment:fixed; 
+  background-position:center;
+  background-size: cover;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;            
+}
+
+
+span.crosshair {
+    cursor: crosshair;
+}
+
+#menu{
+	/*display:block;*/
+}
+
+.page{
+	text-align:center;
+  display:none;
+
+}
+
+.fondo{
+    display:block;
+    position: relative;
+    background-size: 100%;
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+    z-index: absolute;
+}
+/*Juego Normal*/
+#interrogacion{
+    position:absolute;
+    z-index:5;
+    left:50%;  
+    top:50%;
+    height:10%;
+    width: auto;
+    
+    transform: translate(-50%, -50%);
+}
+#fade{
+    position:absolute;
+    z-index:0.5;
+    left:50%;  
+    top:0%;
+    height:100%;
+    width: auto;
+    transform: translate(-50%, 0);
+}
+#background{
+    position:absolute;
+    z-index:absolute;
+    left:50%;  
+    top:0%;
+    height:100%;
+    width: auto;
+    transform: translate(-50%, 0);
+}
+#asset{
+    position:absolute;
+    z-index:0.8;
+    left:50%;  
+    top:50%;
+    height:10%;
+    width: auto;
+    transform: translate(-50%, -50%);
+}
+#bLeft{
+    position:absolute;
+    z-index:1; 
+    left:50%;  
+    top:82%;
+    height:auto;
+    width: 7%;
+    transform: translate(-100%, 0);
+}
+#bRight{
+    position:absolute;
+    z-index:1; 
+    left:50%;  
+    top:82%;
+    height:auto;
+    width: 7%;
+    transform: translate(0, 0);
+}
+#bBack{
+    position:absolute;
+    z-index:1;
+    left: 50%;
+    top:90%;
+    height:10%;
+    width: auto;
+    transform: translate(-50%, 0);
+}
+#bFront{
+  position:absolute;  
+  z-index:1;
+  left: 50%; 
+  top:70%;
+  height:10%;
+  width: auto;
+  transform: translate(-50%, 0);
+}
+/* Victoria*/
+
+.boton{
+    background: transparent;
+    background-image:url(assets/BotonAtras.png);
+    border: none;
+    background-repeat:no-repeat;
+    position:absolute;
+    z-index:1;
+    top:80%;
+    left:40%;
+    height: 15%;
+    width:  25%;
+}
+
+.boton:hover{
+  background-image:url(assets/BotonAtrasHover.png);
+  border: none;
+    background-repeat:no-repeat;
+    position:absolute;
+    z-index:1;
+    top:80%;
+    left:40%;
+    height: 15%;
+    width:  35%;
+}
+
+#Victoria{
+  text-align: unset;
+  position: absolute;
+  z-index: 5;
+  left: 10%;
+  top: 0%;
+  height: 100%;
+  width: auto;
+    
+}
+
+#final{
+
+  position: absolute;
+  height: 10%;
+  width: 20%;
+  left: 35%;
+  z-index: 6;
+}
+
+.back{
+      background: transparent;
+  background-image:url(assets/BotonAtras.png);
+    border: none;
+    background-repeat:no-repeat;
+  z-index: 5;
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+}
+
+.back:hover{
+  background: transparent;
+  background-image:url(assets/BotonAtrasHover.png);
+    border: none;
+    background-repeat:no-repeat;
+  z-index: 5;
+  height: 100%;
+  width: 100%;
+  background-size: contain;  
+}
+
+/* Derrota */
+.botonAtras {
+
+  background: transparent;
+  border: none;
+  background-image:url(assets/BotonAtras.png);
+  background-repeat:no-repeat;
+  height:150px;
+  width:40%;
+  background-position:center;
+}
+
+.botonAtras:hover {
+  background-image:url(assets/BotonAtrasHover.png);
+  background-repeat:no-repeat;
+  height:150px;
+  width:40%;
+  background-position:center;
+}
+
+.botonAtras:active {
+  position:relative;
+  top:1px;
+  font-size: 130%;
+
+}
+
+#Derrota{
+    position:absolute;
+    z-index:absolute;
+    left:15%;  
+    top:0%;
+    height:100%;
+    width: auto;
+    
+}
+/*Sala Bloqueada*/
+
+#menuLocked{
+  display:none;
+
+}
+#background2{
+    position:absolute;
+    z-index:absolute;
+    left:15%;  
+    top:0%;
+    height:100%;
+    width: auto;
+    
+}
+#fence{
+    position:absolute;
+    z-index:1;
+    left:15%;  
+    top:0%;
+    height:100%;
+    width: auto;
+}
+#puzzle{
+    position:absolute;
+    z-index:2;
+    left:22%;  
+    top:10%;
+    height:80%;
+    width: auto;
+}
+
+#bBack2{
+    position:absolute;
+    z-index:4;
+    top:87%;
+    left:   47%;
+    height: 15%;
+    width:  auto;
+}
+#clock{
+    position:absolute;
+    z-index:5;
+    top:    2%;
+    left:   50%;
+    height: 5%;
+    width: 40%;
+    transform: translate(-50%, 0);
+}
+/*Menu Minijuego*/
+#b0  {  transform: translate(-200%, -200%);}
+#b1  {  transform: translate(-100%, -200%);}
+#b2  {  transform: translate(0, -200%);}
+#b3  {  transform: translate(+100%, -200%);}
+#b4  {  transform: translate(-200%, -100%);}
+#b5  {  transform: translate(-100%, -100%);}
+#b6  {  transform: translate(0, -100%);}
+#b7  {  transform: translate(100%, -100%);}
+#b8  {  transform: translate(-200%, 0);}
+#b9  {  transform: translate(-100%, 0);}
+#b10 {  transform: translate(0, 0);}
+#b11 {  transform: translate(100%, 0);}
+#b12 {  transform: translate(-200%, +100%);}
+#b13 {  transform: translate(-100%, +100%);}
+#b14 {  transform: translate(0, +100%);}
+#b15 {  transform: translate(100%, +100%);}
+
+.boton_minijuego{
+    left:50%;
+    top:50%;
+    position: absolute;
+    height:15%;
+    width: auto;
+}
+
+
+/* Highscores */
+#insertHighscore{
+    top: 50%;
+    left: 50%;
+    height:10%;
+    width: auto;
+    z-index: 5;
+    
+}
+
+.insertHighscore{
+
+}
+.BatrasIns{
+    background: transparent;
+    border: none;
+    background-image:url(assets/BotonAtras.png);
+    background-repeat:no-repeat;
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    height: 15%;
+    width: 40%;
+}
+.BatrasIns:hover{
+    background: transparent;
+    border: none;
+    background-image:url(assets/BotonAtrasHover.png);
+    background-repeat:no-repeat;
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    height: 15%;
+    width: 40%;
+}
+
+#instrucciones{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 90%;
+    width: auto;
+    transform: translate(-50%, -50%);
+}
+
+#Highscore{
+    top: 50%;
+    left: 100%;
+    height:auto;
+    width: auto;
+    z-index: 5;
+    
+}
+
+#menuHighscore{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+
+#btnslvl{
+  position: absolute;
+  height: 40%;
+  width:40%;
+  left:30%;
+  z-index: 1;
+  background-size: 20%;
+}
+
+.common{
+  background: transparent;
+  border: none;
+  background-repeat:no-repeat;
+  height:30%;
+  width:30%;
+  background-position:center;
+}
+
+.highscore1{
+
+  background-image:url(assets/Boton1.png);
+  background-size: contain;
+}
+
+.highscore1:hover{
+   background-image:url(assets/Boton1Hover.png);
+  background-size: contain; 
+}
+
+.highscore2{
+
+  background-image:url(assets/Boton2.png);
+  background-size: contain;
+}
+
+.highscore2:hover{
+   background-image:url(assets/Boton2Hover.png);
+  background-size: contain; 
+}
+
+.highscore3{
+
+  background-image:url(assets/Boton3.png);
+  background-size: contain;
+}
+
+.highscore3:hover{
+   background-image:url(assets/Boton3Hover.png);
+  background-size: contain; 
+}
+
+#mierda{
+  position: absolute;
+
+  height:10%;
+  width: 20%;
+  z-index: 5;
+}
+
+#atras{
+  position: absolute;
+  height: 20%;
+  width:20%;
+  top: 80%;
+  left: 70%;
+}
+.backHighscores{
+  background: transparent;
+  position: absolute;
+  background-image:url(assets/BotonAtras.png);
+  border: none;
+  background-repeat: no-repeat;
+  height: 100%;
+  width:100%;
+  background-size: contain; 
+}
+
+.backHighscores:hover{
+  background: transparent;
+  position: absolute;
+  background-image:url(assets/BotonAtrasHover.png);
+  border: none;
+  background-repeat: no-repeat;
+  height: 100%;
+  width:100%;
+  background-size: contain;
+
+}
+
+/*cuadros de texto*/
+
+#pregunta{
+
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.2vw;
+    background: transparent;
+    border: none ;
+    position:absolute;
+    z-index:5;
+    top:    17%;
+    left: 28%;
+    height: auto;
+    max-height:16%; 
+    min-height:18%; 
+    width:  45%;
+    overflow:hidden;
+}
+
+#respuestas{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.2vw;
+    background: transparent;
+    border: none ;
+    position:absolute;
+    z-index:10;
+    top:    36.5%;
+    left:   38%;
+    height: 55%;
+    max-height:100%; 
+    min-height:9%; 
+    width:  35%;
+    text-align: left;
+    resize: none;
+    overflow:hidden;
+
+}
+
+
+.boton_Quest{
+    position:absolute;
+    z-index:3;
+    left:   27%;
+    height: 13.5%;
+    width:  auto;
+}
+
+#resA{
+      font-size: 150%;
+
+}
+#resB{
+    font-size: 150%;
+
+}
+#resC{
+    font-size: 150%;
+
+}
+#resD{
+    font-size: 150%;
+
+
+}
+#bA{
+    top :   36%;
+}
+#bB{
+    top :   49%;
+}
+#bC{
+    top :   63%;
+}
+#bD{
+    top :   76%;
+}
+
+#10{
+    position:absolute;
+    z-index:10;
+    left:   50%;
+    height: 15%;
+    width:  auto;
+    transform: translate(-50%,0);
+}
+/*Titulo*/
+#titulo{
+    position:absolute;
+    z-index:1;
+    left:   50%;
+    top:1%;
+    height: 40%;
+    width:  auto;
+    transform: translate(-53%,0);
+}
+
+
+
+/* BOTONES */
+
+#btnPrn{
+  width:15%;  
+  height: 50%;
+  left:40%;
+  top:35%;
+  position: absolute;
+  z-index: 1;
+  background-size: 20%;
+
+}
+.btnMenu{
+  height:20%;
+  width:100%;
+
+}
+
+.botonJugar {
+
+  background: transparent;
+  border: none !important;
+  background-image:url(assets/BotonJugar.png);
+  background-repeat:no-repeat;
+  background-size: contain;
+  background-position:center;
+
+}
+
+.botonJugar:hover {
+  background-image:url(assets/BotonJugarHover.png);
+  background-repeat:no-repeat;
+  background-size: contain;
+  cursor:pointer;
+  background-position:center;
+}
+
+.botonJugar:active {
+	position:relative;
+	top:1px;
+	font-size: 130%;
+
+}
+
+.botonInstrucciones {
+  background: transparent;
+  border: none;
+  background-image:url(assets/BotonInstrucciones.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: contain;
+}
+
+.botonInstrucciones:hover {
+  background-image:url(assets/BotonInstruccionesHover.png);
+  background-repeat:no-repeat;
+  cursor:pointer;
+  background-position:center;
+  background-size: contain;
+}
+
+.botonInstrucciones:active {
+	position:relative;
+	top:1px;
+	font-size: 130%;
+
+}
+
+#Bhighscores{
+      background: transparent;
+    background-image:url(assets/BotonMP.png);
+  border: none ;
+    z-index: 5;
+  background-repeat:no-repeat;
+    left: 50%;
+    top: 80%;
+  cursor:pointer;
+  background-position:center;
+  background-size: contain;
+}
+#Bhighscores:hover {
+  background-image:url(assets/BotonMPHover.png);
+  background-repeat:no-repeat;
+  background-position:center;
+}
+
+.botonContactar {
+
+  background: transparent;
+  border: none ;
+  background-image:url(assets/BotonContactar.png);
+  background-repeat:no-repeat;
+  cursor:pointer;
+  background-position:center;
+  background-size: contain;
+}
+
+.botonContactar:hover {
+  background-image:url(assets/BotonContactarHover.png);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: contain;
+}
+
+.botonContactar:active {
+	position:relative;
+	top:1px;
+	font-size: 130%;
+
+}
+
+.btnMenu{
+  height:20%;
+  width:100%;
+
+}
+
+.botonAtras {
+
+  background: transparent;
+  border: none;
+  background-image:url(assets/BotonAtras.png);
+  background-repeat:no-repeat;
+  height:150px;
+  width:40%;
+  background-position:center;
+}
+
+.botonAtras:hover {
+  background-image:url(assets/BotonAtrasHover.png);
+  background-repeat:no-repeat;
+  height:150px;
+  width:40%;
+  background-position:center;
+}
+
+.botonAtras:active {
+	position:relative;
+	top:1px;
+	font-size: 130%;
+
+}
+
+
+
+/*<<<<<<< HEAD
+#btnPrn{
+  width:30%;  
+  height: 50%;
+  left:32%;
+  top:35%;
+  position: absolute;
+  z-index: 1;
+  background-size: 20%;
+}
+.btnMenu{
+  height:20%;
+  width:100%;
+
+}
+
+.botonJugar {
+
+  background: transparent;
+  border: none !important;
+  background-image:url(assets/BotonJugar.png);
+  background-repeat:no-repeat;
+  background-size: contain;
+  background-position:center;
+
+
+}
+=======
+
+
+.boton1 {
+*/
+
+#menuJugar{
+  position: absolute;
+  height: 40%;
+  width:70%;
+  left:10%;
+  z-index: 1;
+  background-size: 20%;
+
+}
+
+.btnlvl{
+  background: transparent;
+  border: none;
+  background-repeat:no-repeat;
+  height:50%;
+  width:50%;
+  background-position:center;
+}
+
+.boton1 {
+
+  background-image:url(assets/Boton1.png);
+  background-size: contain;
+
+
+}
+
+.boton1:hover {
+  background-image:url(assets/Boton1Hover.png);
+  background-size: contain;
+}
+
+.boton1:active {
+	position:relative;
+	top:1px;
+	font-size: 130%;
+
+}
+.boton2 {
+  margin:10%;
+  background-image:url(assets/2Block.png);
+  background-size: contain;
+}
+
+
+
+.boton2:active {
+	position:relative;
+	top:1px;
+	font-size: 130%;
+
+}
+
+.boton3 {
+  background-image:url(assets/3Block.png);
+  background-size: contain;
+}
+
+
+
+.boton3:active {
+	position:relative;
+	top:1px;
+	font-size: 130%;
+
+}
+#Highscore{
+    
+    position:absolute;
+    top: 29%;
+    left:32%;
+    height:60%;
+    width: auto;
+    z-index: 5;
+    
+    font-family: 'Oswald', sans-serif;
+    font-size: 3vmin;
+    background: transparent;
+    border: none ;
+    overflow:hidden;
+}
+#leaderboard{
+    
+    position:absolute;
+    top: 18%;
+    left:30%;
+    height:80%;
+    width: auto;
+    z-index: 2;
+
+}
+#casilla{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    height:45%;
+    width: 25%;
+    transform: translate(-52%,-48%);
+    z-index: 3;
+}
+#insertHighscore{
+    position:absolute;
+    top: 36%;
+    left: 50%;
+    height:8%;
+    width: 20%;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+    
+    font-family: 'Oswald', sans-serif;
+    font-size: 5vmin;
+    background: transparent;
+    border: none ;
+    overflow:hidden;
+}
+#ok{
+    position:absolute;
+     top: 75%;
+    left: 50%;
+    height:20%;
+    width: auto;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+}
+#asset{
+    position:absolute;
+    z-index:0.6;
+    left:50%;  
+    top:0%;
+    height:100%;
+    width: auto;
+    transform: translate(-50%, 0);
+}
+#sound1{
+    volume: 0.5;
+}
+#sound2{
+    volume: 0.5;
+}
+/*Instrucciones */
+.BatrasIns{
+    background: transparent;
+    border: none;
+    background-image:url(assets/BotonAtras.png);
+    background-repeat:no-repeat;
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    height: 15%;
+    width: 40%;
+}
+.BatrasIns:hover{
+    background: transparent;
+    border: none;
+    background-image:url(assets/BotonAtrasHover.png);
+    background-repeat:no-repeat;
+    position: absolute;
+    top: 80%;
+    left: 70%;
+    height: 15%;
+    width: 40%;
+}
+
+#instrucciones{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 90%;
+    width: auto;
+    transform: translate(-50%, -50%);
+}
+#menuContactar{
+  text-align: unset;
+  color:white;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
